@@ -11,4 +11,4 @@ jobs:
       - run: git add .
       - run: git config user.email grandalf6@gmail.com
       - run: git config user.email
-     
+      - run: git commit -m "autoCommit"
