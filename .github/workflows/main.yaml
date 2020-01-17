@@ -5,8 +5,6 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - run: |
-          git init
-          git status
-          git checkout -b auto
+          git init & git checkout -b auto
           echo "auto" > auto.html
           git status
