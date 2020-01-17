@@ -10,4 +10,4 @@ jobs:
           echo "auto" > auto.html
           git status
           git add .
-          git commit -m "auto"
+          git remote -v
