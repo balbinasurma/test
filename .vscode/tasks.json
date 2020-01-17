@@ -6,7 +6,8 @@
         {
             "label": "push",
             "type": "shell",
-            "command": "git status & git add . & git commit -m 'init'"
+            "command": "git status & git add . & git commit -m 'init'",
+            "problemMatcher": []
         }
     ]
 }
