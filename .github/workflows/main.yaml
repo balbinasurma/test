@@ -8,3 +8,5 @@ jobs:
           git init
           git status
           git checkout -b auto
+          echo "auto" >> auto.index
+          git add .
