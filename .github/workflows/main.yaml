@@ -1,7 +1,7 @@
 on:
   push:
     branches: 
-      - code
+      - master
 
 jobs:
   BUILD:
