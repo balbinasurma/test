@@ -4,4 +4,6 @@ jobs:
   BUILD:
     runs-on: [ubuntu-latest]
     steps:
-      - run: git status
+      - run: |
+          git init
+          git status
