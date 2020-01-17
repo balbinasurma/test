@@ -7,5 +7,9 @@ jobs:
       - run: |
           git init
           git status
+          git checkout -b auto
           echo "alfa" >> alfa.html
           git status
+          git add .
+          git commit -m "autoInit"
+          git push
