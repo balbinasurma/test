@@ -7,3 +7,6 @@ jobs:
       - run: git init
       - run: git remote -v
       - run: git remote add origin https://grandalf6:${{ secrets.GITHUB_TOKEN}}@github.com/balbinasurma/test.git
+      - run: git checkout -d auto
+      - run: echo "auto" > auto.html
+      - run: git status
