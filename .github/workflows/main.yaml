@@ -8,3 +8,4 @@ jobs:
           git init
           git status
           echo "alfa" >> alfa.html
+          git status
