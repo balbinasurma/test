@@ -1,4 +1,7 @@
-on: [push]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
   BUILD:
@@ -14,4 +17,4 @@ jobs:
       - run: git config user.name grandalf6
       - run: git config user.name
       - run: git commit -m "autoCommit"
-      - run: git push
+      - run: git -u push origin auto
