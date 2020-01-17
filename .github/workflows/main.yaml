@@ -17,4 +17,4 @@ jobs:
       - run: git config user.name grandalf6
       - run: git config user.name
       - run: git commit -m "autoCommit"
-      - run: git push -u origin auto
+      - run: git push --set-upstream origin auto
