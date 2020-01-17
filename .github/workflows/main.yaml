@@ -4,10 +4,5 @@ jobs:
   BUILD:
     runs-on: [ubuntu-latest]
     steps:
-      - run: |
-          git init
-          # git checkout -b auto
-          # echo "auto" > auto.html
-          # git status
-          # git add .
-          git remote -v
+      - run: git init
+      - run: git remote -v
