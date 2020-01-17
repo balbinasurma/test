@@ -10,5 +10,5 @@ jobs:
       - run: echo "auto" > auto.html
       - run: git add .
       - run: git config user.email grandalf6@gmail.com
-      - run: git commit -m "autoCommit"
-      - run: git status
+      - run: git config user.email
+     
