@@ -9,5 +9,6 @@ jobs:
       - run: git checkout -b auto
       - run: echo "auto" > auto.html
       - run: git add .
+      - run: git config grandalf6@gmail.com
       - run: git commit -m "autoCommit"
       - run: git status
